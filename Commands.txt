@@ -14,3 +14,16 @@ here we created the file
 git add test.js 
 git commit -m 'add test brach file'
 
+
+
+git switch dev
+git status
+
+here we created the file
+git add dev.js 
+git commit -m 'add dev brach file'
+
+
+git tag -a v1.0 -m 'version 1.0'
+git tag 
+
