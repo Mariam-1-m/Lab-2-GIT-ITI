@@ -23,7 +23,23 @@ here we created the file
 git add dev.js 
 git commit -m 'add dev brach file'
 
+git switch dev 
+git merge test
+
+git switch main
+git merge dev
+
+git push origin main
+
+q4- git branch -d test  git branch -d dev
+q5- git stash
+
 
 git tag -a v1.0 -m 'version 1.0'
+git push origin main
 git tag 
 
+git tag -d v1.0
+git push origin main
+
+add img in my structure hen add this path to readme file ![Programing IMG](images/img1.jpg "image 1")
