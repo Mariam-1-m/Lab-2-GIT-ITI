@@ -10,3 +10,7 @@ git branch dev
 git switch test
 git status
 
+here we created the file
+git add test.js 
+git commit -m 'add test brach file'
+
