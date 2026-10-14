@@ -1,7 +1,8 @@
-![Programing IMG](images/img1.jpg "image 1")
 
-1-Create a new project on your local machine,
-then push it your remote repo.
+# Lab 2 - Git & GitHub Exercises
+
+1- Create a new project on your local machine, then push it to your remote repo.
+```bash
 git init
 git add .
 git commit -m 'first commit lab 2'
@@ -19,19 +20,15 @@ git push origin dev
 remote main branch.
 git switch test
 git status
-
-here we created the file
+# here we created the file
 git add test.js 
-git commit -m 'add test brach file'
-
-
+git commit -m 'add test branch file'
 
 git switch dev
 git status
-
-here we created the file
+# here we created the file
 git add dev.js 
-git commit -m 'add dev brach file'
+git commit -m 'add dev branch file'
 
 git switch dev 
 git merge test
@@ -71,3 +68,4 @@ git push origin --delete v1.0
 
 10-Add an image in the README.md file.
 add img in my structure then add this path to readme file 
+![Programing IMG](images/img1.jpg "image 1")
