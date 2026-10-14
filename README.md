@@ -33,8 +33,12 @@ git merge dev
 
 git push origin main
 
-q4- git branch -d test  git branch -d dev
-q5- git stash
+q4- git branch -d test  
+git push origin :test
+git branch -d dev
+git push origin :dev
+q5- git stash 
+git stash pop
 
 
 git tag -a v1.0 -m 'version 1.0'
