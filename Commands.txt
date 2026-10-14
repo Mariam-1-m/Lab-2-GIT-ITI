@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m 'first commit lab 2'
+git remote add origin git@github.com:Mariam-1-m/Lab-2-GIT-ITI.git
+git push -u origin main
+
+git branch test
+git branch dev
+
+git switch test
