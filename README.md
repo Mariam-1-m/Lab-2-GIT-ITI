@@ -44,4 +44,4 @@ git tag
 git tag -d v1.0
 git push origin main
 
-add img in my structure hen add this path to readme file ![Programing IMG](images/img1.jpg "image 1")
+add img in my structure then add this path to readme file 
